@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QZMJ2VQ5GR"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+    gtag('config', 'G-QZMJ2VQ5GR');
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://kit.fontawesome.com/72215895a8.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirm Payment</title>
+    <link rel="shortcut icon" type="image/png" href="../Common Files/image/favicon.png">
+    <link rel="stylesheet" href="../payment/end.css">
+    
+</head>
+
+<body>
+    <div id="thanks">
+        <img src="https://bit.ly/3J2FZ5A" alt="">
+    </div>
+    <div id="confirm">
+        <h3>Order Confirmed<br>
+            You will soon receive a mail/SMS regarding confirmation of your recent order</h2>
+    </div>
+
+    <a href="../Landingpage/index.html">
+        <div id="move">GO TO HOME</div>
+    </a>
+
+</body>
+
+</html>
+<script src="../payment/confetti.js"></script>
+    <script>
+         const start = () => {
+            setTimeout(function() {
+                confetti.start()
+            }, 1000); 
+        };
+
+        const stop = () => {
+            setTimeout(function() {
+                confetti.stop()
+            }, 10000); 
+        };
+
+        start();
+        stop();
+    </script>
